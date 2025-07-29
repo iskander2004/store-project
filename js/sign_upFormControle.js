@@ -102,7 +102,7 @@ function showError(inputElt,errormsg){
     inputElt.style.borderColor ='red' ;
 }
 function valideform(){
-    return validefullname() && valideage() && valideemail() && validepassword() && valideconfirmpassword();
+    return validefullname() && valideage() && valideemail() && validepassword() && valideconfirmpassword() && validatephonenumber();
 }
 function setupValide(){
     envoyerbtn.addEventListener('submit',function(event){
